@@ -1,0 +1,36 @@
+cmake_minimum_required(VERSION 3.0.0)
+project(One VERSION 0.0.0)
+
+include(GoogleTest)
+enable_testing()
+include_directories(C:/Users/toch/Desktop/Cpp/One/libs/GTest_lib/include)
+
+set(GTEST_LIBRARY C:/Users/toch/Desktop/Cpp/One/libs/GTest_lib/lib/libgtestd.a)
+set(GTEST_MAIN_LIBRARY C:/Users/toch/Desktop/Cpp/One/libs/GTest_lib/lib/libgtest_maind.a)
+find_package(GTest REQUIRED)
+
+include_directories(/src)
+
+add_definitions(-Dfpermissive)
+set(SOURCE_DIR src/)
+set(SOURCE
+${SOURCE_DIR}Testable.cpp
+)
+
+set(TEST_DIR tests/)
+set(TESTS 
+${TEST_DIR}Test.cpp
+)
+
+add_executable(One main.cpp ${SOURCE})
+
+set(UNIT_TESTS test_main.cpp ${SOURCE} ${TESTS} )
+add_executable(unit_test ${UNIT_TESTS})
+gtest_discover_tests(unit_test)
+target_link_libraries(unit_test ${GTEST_LIBRARY} ${GTEST_MAIN_LIBRARY})
+
+
+
+set(CPACK_PROJECT_NAME ${PROJECT_NAME})
+set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
+include(CPack)

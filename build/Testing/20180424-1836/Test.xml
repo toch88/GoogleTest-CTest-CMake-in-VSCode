@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="Win32-g++"
+	BuildStamp="20180424-1836-Experimental"
+	Name="DESKTOP-42AJTDH"
+	Generator="ctest-3.10.2"
+	CompilerName="C:/msys64/usr/bin/g++.exe"
+	CompilerVersion="6.4.0"
+	OSName="Windows"
+	Hostname="DESKTOP-42AJTDH"
+	OSRelease=" Professional"
+	OSVersion=" (Build 14393)"
+	OSPlatform="x86"
+	Is64Bits="1"
+	VendorString=""
+	VendorID="Unknown Manufacturer"
+	FamilyID="0"
+	ModelID="0"
+	ProcessorCacheSize="0"
+	NumberOfLogicalCPU="8"
+	NumberOfPhysicalCPU="4"
+	TotalVirtualMemory="13224"
+	TotalPhysicalMemory="8104"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="2394"
+	>
+	<Testing>
+		<StartDateTime>Apr 24 22:27 [NON-UTF-8-BYTE-0x8C]rodkowoeuropejski czas letni</StartDateTime>
+		<StartTestTime>1524601670</StartTestTime>
+		<TestList>
+			<Test>./GetTwoTest.Two</Test>
+			<Test>./GetThreeTest.Two</Test>
+		</TestList>
+		<Test Status="passed">
+			<Name>GetTwoTest.Two</Name>
+			<Path>.</Path>
+			<FullName>./GetTwoTest.Two</FullName>
+			<FullCommandLine>C:\Users\toch\Desktop\Cpp\One\build\unit_test.exe "--gtest_filter=GetTwoTest.Two" "--gtest_also_run_disabled_tests"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0231014</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>C:\Users\toch\Desktop\Cpp\One\build\unit_test.exe "--gtest_filter=GetTwoTest.Two" "--gtest_also_run_disabled_tests"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJyNUMsKwkAMvO9XzFEPLXoVehCUHoQqtp5KD6vGUthuZJva37cPfBbBuSRMJskkEQstEDLnhpBQJbgURsghQEiSNNxxfhtVGjyRYV9bW9gcc0jf47h85Cddka9S74kMoeGjNkOZ7K1wbEuygorEq69f4veRLwsqxf4QoUc2sjbw2G5GNUxmKKvpPysGKYRFm6n67wIh7bwzN/bzPT/eAqet/7mmtb5bxvF61Z01SH11B3Fre0s=</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>GetThreeTest.Two</Name>
+			<Path>.</Path>
+			<FullName>./GetThreeTest.Two</FullName>
+			<FullCommandLine>C:\Users\toch\Desktop\Cpp\One\build\unit_test.exe "--gtest_filter=GetThreeTest.Two" "--gtest_also_run_disabled_tests"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0271026</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>C:\Users\toch\Desktop\Cpp\One\build\unit_test.exe "--gtest_filter=GetThreeTest.Two" "--gtest_also_run_disabled_tests"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJyNULsKwkAQ7O8rptQiQVshhaCkEKLEWIUUp64auNzK3UZ/38ehJKLgVMvO7M7sZiw0Qcp8NISCvOBQGyGHBClJcXJEj25cXFmVyRsV8tba2h4xhjynHDeveqc9xaqM3qiQGt5qE2iyl9qxbcgKPEnUnj/E3ZXdEKpEvsnwRPUlXmCwXHxhMRih8cP/jIIYwqLNUP13iZB20Z6vtv+mH++B0zbu29zjr6br9Xz2OC5IY3UD/rx/AQ==</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<EndDateTime>Apr 24 22:27 [NON-UTF-8-BYTE-0x8C]rodkowoeuropejski czas letni</EndDateTime>
+		<EndTestTime>1524601670</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

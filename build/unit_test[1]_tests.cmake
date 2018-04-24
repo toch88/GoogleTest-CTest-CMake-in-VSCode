@@ -1,0 +1,5 @@
+add_test( GetTwoTest.Two C:/Users/toch/Desktop/Cpp/One/build/unit_test.exe [==[--gtest_filter=GetTwoTest.Two]==] --gtest_also_run_disabled_tests)
+set_tests_properties( GetTwoTest.Two PROPERTIES WORKING_DIRECTORY C:/Users/toch/Desktop/Cpp/One/build)
+add_test( GetThreeTest.Two C:/Users/toch/Desktop/Cpp/One/build/unit_test.exe [==[--gtest_filter=GetThreeTest.Two]==] --gtest_also_run_disabled_tests)
+set_tests_properties( GetThreeTest.Two PROPERTIES WORKING_DIRECTORY C:/Users/toch/Desktop/Cpp/One/build)
+set( unit_test_TESTS GetTwoTest.Two GetThreeTest.Two)

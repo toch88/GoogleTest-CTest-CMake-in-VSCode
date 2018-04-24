@@ -1,0 +1,55 @@
+Start testing: Apr 24 22:27 Œrodkowoeuropejski czas letni
+----------------------------------------------------------
+1/2 Testing: GetTwoTest.Two
+1/2 Test: GetTwoTest.Two
+Command: "C:/Users/toch/Desktop/Cpp/One/build/unit_test.exe" "--gtest_filter=GetTwoTest.Two" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/toch/Desktop/Cpp/One/build
+"GetTwoTest.Two" start time: Apr 24 22:27 Œrodkowoeuropejski czas letni
+Output:
+----------------------------------------------------------
+Note: Google Test filter = GetTwoTest.Two
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from GetTwoTest
+[ RUN      ] GetTwoTest.Two
+[       OK ] GetTwoTest.Two (0 ms)
+[----------] 1 test from GetTwoTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"GetTwoTest.Two" end time: Apr 24 22:27 Œrodkowoeuropejski czas letni
+"GetTwoTest.Two" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/2 Testing: GetThreeTest.Two
+2/2 Test: GetThreeTest.Two
+Command: "C:/Users/toch/Desktop/Cpp/One/build/unit_test.exe" "--gtest_filter=GetThreeTest.Two" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/toch/Desktop/Cpp/One/build
+"GetThreeTest.Two" start time: Apr 24 22:27 Œrodkowoeuropejski czas letni
+Output:
+----------------------------------------------------------
+Note: Google Test filter = GetThreeTest.Two
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from GetThreeTest
+[ RUN      ] GetThreeTest.Two
+[       OK ] GetThreeTest.Two (0 ms)
+[----------] 1 test from GetThreeTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"GetThreeTest.Two" end time: Apr 24 22:27 Œrodkowoeuropejski czas letni
+"GetThreeTest.Two" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Apr 24 22:27 Œrodkowoeuropejski czas letni

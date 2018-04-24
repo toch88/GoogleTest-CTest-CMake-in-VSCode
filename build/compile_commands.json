@@ -1,0 +1,31 @@
+[
+{
+  "directory": "c:/users/toch/desktop/cpp/one/build",
+  "command": "C:\\msys64\\usr\\bin\\g++.exe  -Dfpermissive -I../libs/GTest_lib/include -I/src  -g   -o CMakeFiles\\unit_test.dir\\test_main.cpp.obj -c C:\\Users\\toch\\Desktop\\Cpp\\One\\test_main.cpp",
+  "file": "C:/Users/toch/Desktop/Cpp/One/test_main.cpp"
+},
+
+{
+  "directory": "c:/users/toch/desktop/cpp/one/build",
+  "command": "C:\\msys64\\usr\\bin\\g++.exe  -Dfpermissive -I../libs/GTest_lib/include -I/src  -g   -o CMakeFiles\\unit_test.dir\\src\\Testable.cpp.obj -c C:\\Users\\toch\\Desktop\\Cpp\\One\\src\\Testable.cpp",
+  "file": "C:/Users/toch/Desktop/Cpp/One/src/Testable.cpp"
+},
+
+{
+  "directory": "c:/users/toch/desktop/cpp/one/build",
+  "command": "C:\\msys64\\usr\\bin\\g++.exe  -Dfpermissive -I../libs/GTest_lib/include -I/src  -g   -o CMakeFiles\\unit_test.dir\\tests\\Test.cpp.obj -c C:\\Users\\toch\\Desktop\\Cpp\\One\\tests\\Test.cpp",
+  "file": "C:/Users/toch/Desktop/Cpp/One/tests/Test.cpp"
+},
+
+{
+  "directory": "c:/users/toch/desktop/cpp/one/build",
+  "command": "C:\\msys64\\usr\\bin\\g++.exe  -Dfpermissive -I../libs/GTest_lib/include -I/src  -g   -o CMakeFiles\\One.dir\\main.cpp.obj -c C:\\Users\\toch\\Desktop\\Cpp\\One\\main.cpp",
+  "file": "C:/Users/toch/Desktop/Cpp/One/main.cpp"
+},
+
+{
+  "directory": "c:/users/toch/desktop/cpp/one/build",
+  "command": "C:\\msys64\\usr\\bin\\g++.exe  -Dfpermissive -I../libs/GTest_lib/include -I/src  -g   -o CMakeFiles\\One.dir\\src\\Testable.cpp.obj -c C:\\Users\\toch\\Desktop\\Cpp\\One\\src\\Testable.cpp",
+  "file": "C:/Users/toch/Desktop/Cpp/One/src/Testable.cpp"
+}
+]
